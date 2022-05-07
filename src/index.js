@@ -1,3 +1,4 @@
+import React from "react";
 //import ReactDOM object from the react-dom third-party library
 import ReactDOM from 'react-dom/client';
 
