@@ -9,9 +9,14 @@ function App() {
     { id: "e3", title: "expense3", amount: "150", date: new Date(2022, 1, 5) },
   ];
 
+  const addExpenseHandler = (expense) => {
+    console.log("Data arrived in App component");
+    console.log(expense);
+  };
+
   return (
     <div>
-      <NewExpense />
+      <NewExpense onAddExpense={addExpenseHandler} />
       <Expenses item={expenses} />
     </div>
   );
