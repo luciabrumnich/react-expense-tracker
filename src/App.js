@@ -4,8 +4,8 @@ import Expenses from "./components/Expenses/Expenses";
 
 const initial_expenses = [
   { id: "e1", title: "expense1", amount: "100", date: new Date(2022, 6, 6) },
-  { id: "e2", title: "expense2", amount: "200", date: new Date(2022, 7, 5) },
-  { id: "e3", title: "expense3", amount: "150", date: new Date(2022, 1, 5) },
+  { id: "e2", title: "expense2", amount: "200", date: new Date(2021, 7, 5) },
+  { id: "e3", title: "expense3", amount: "150", date: new Date(2021, 1, 5) },
 ];
 
 function App() {
