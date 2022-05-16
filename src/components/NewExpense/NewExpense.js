@@ -1,5 +1,4 @@
 import React from "react";
-import { useState } from "react/cjs/react.production.min";
 import ExpenseForm from "./ExpenseForm";
 import "./NewExpense.css";
 
